@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../sources/ippcp/crypto_mb/include/crypto_mb/cpu_features.h
+crypto_mb/defs.h
+-
+
+../sources/ippcp/crypto_mb/include/crypto_mb/defs.h
+
+/home/zyktrcn/sgx/ipp-crypto/sources/ippcp/crypto_mb/src/apps/vfy_mbx_cpu_features.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+crypto_mb/cpu_features.h
+-
+

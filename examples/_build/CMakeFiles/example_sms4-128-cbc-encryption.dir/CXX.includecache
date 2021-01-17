@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../utils/examples_common.h
+stdio.h
+-
+
+/home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/include/ippcp.h
+ippcpdefs.h
+/home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/include/ippcpdefs.h
+
+/home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/include/ippcpdefs.h
+
+/home/zyktrcn/sgx/ipp-crypto/examples/sms4/sms4-128-cbc-encryption.cpp
+string.h
+-
+ippcp.h
+/home/zyktrcn/sgx/ipp-crypto/examples/sms4/ippcp.h
+examples_common.h
+/home/zyktrcn/sgx/ipp-crypto/examples/sms4/examples_common.h
+

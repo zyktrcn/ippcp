@@ -1,0 +1,1 @@
+/usr/bin/c++   -fstack-protector -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -fpie -fPIE  -rdynamic -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -fpie CMakeFiles/example_test.dir/test/test.cpp.o  -o .build/examples/example_test  /home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/lib/libippcp.a -lpthread 

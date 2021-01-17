@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../sources/ippcp/crypto_mb/include/crypto_mb/defs.h
+
+../sources/ippcp/crypto_mb/include/crypto_mb/rsa.h
+crypto_mb/defs.h
+-
+crypto_mb/status.h
+-
+openssl/bn.h
+-
+
+../sources/ippcp/crypto_mb/include/crypto_mb/status.h
+crypto_mb/defs.h
+-
+
+/home/zyktrcn/sgx/ipp-crypto/sources/ippcp/crypto_mb/src/apps/ba_mbx_rsa.c
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+crypto_mb/rsa.h
+-
+

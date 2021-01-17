@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/include/ippcp.h
+ippcpdefs.h
+/home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/include/ippcpdefs.h
+
+/home/zyktrcn/sgx/ipp-crypto/_build/.build/RELEASE/include/ippcpdefs.h
+
+/home/zyktrcn/sgx/ipp-crypto/examples/test/test.cpp
+ippcp.h
+/home/zyktrcn/sgx/ipp-crypto/examples/test/ippcp.h
+stdio.h
+-
+string.h
+-
+time.h
+-
+fstream
+-
+string.h
+-
+
